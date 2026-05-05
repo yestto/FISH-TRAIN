@@ -1,0 +1,21 @@
+nohup: ignoring input
+ERROR conda.cli.main_run:execute(125): `conda run python wait_for_yolov8m_then_train_seg.py` failed. (See above for error)
+=== Seg Training Queue (waits for YOLOv8m first) ===
+Waiting for YOLOv8m to finish (checking every 5 min)...
+  Still training... [18:19]
+
+✅ YOLOv8m finished! Weights found at:
+   /mnt/raid7tb/dileep/Suhas/Fish Annotations/yolo_training_runs/fish_yolov8m_1280/weights/best.pt
+
+
+============================================================
+  Starting: YOLO11m-seg 1280
+  Log: /mnt/raid7tb/dileep/Suhas/Fish Annotations/train_log_yolo11m_seg_1280.txt
+============================================================
+
+  [YOLO11m-seg 1280] ERROR conda.cli.main_run:execute(125): `conda run python train_v14_yolo11m_seg.py` failed. (See above for error)
+
+  YOLO11m-seg 1280: FAILED (exit 1)
+
+Stopped: YOLO11m-seg 1280 failed. Check log.
+

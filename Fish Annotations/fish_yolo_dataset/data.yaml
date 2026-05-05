@@ -1,0 +1,5 @@
+names:
+  0: fish
+path: /mnt/raid7tb/dileep/Suhas/Fish Annotations/fish_yolo_dataset
+train: train/images
+val: val/images
